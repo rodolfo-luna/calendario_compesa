@@ -4,6 +4,8 @@ Script para extração dos dados do calendário de abastecimento da Compesa.
 
 O Script extrai os dados do calendário da Compesa da região escolhida e manda uma mensagem de texto no Telegram para usuários listados.
 
+A aplicação deve ser executada diariamente, se houver atualização em qualquer dos calendários(abastecimento e manutenção), o script manda uma mensagem pelo Telegram para os usuários da lista de IDs. Os calendários com diferenças são armazenados para evitar que os usuários recebam mensagens com calendários recebidos previamente.
+
 O URL foi extraída através das requisições feitas pelo calendário de abastecimento: https://servicos.compesa.com.br/calendario-de-abastecimento-da-compesa/.
 
 Duas URLs são utilizadas, uma para extrair o calendário de abastecimento e outra para o calendário de manutenção.
